@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adriano Lima | Engenharia de Dados</title>
+  <meta name="description" content="Currículo de Adriano Lima — Engenharia de Dados, Power BI, Excel, Python e IA." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="navbar" id="navbar">
+    <a href="#inicio" class="logo"><span>&lt;</span>Adriano<span>/&gt;</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#inicio" class="nav-link active"><i class="fa-solid fa-house"></i> Início</a>
+      <a href="#experiencia" class="nav-link"><i class="fa-solid fa-briefcase"></i> Experiência</a>
+      <a href="#formacao" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Formação</a>
+      <a href="#idiomas" class="nav-link"><i class="fa-solid fa-language"></i> Idiomas</a>
+      <a href="#projetos" class="nav-link"><i class="fa-solid fa-chart-line"></i> Projetos</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-switch" id="themeToggle" role="switch" aria-checked="true" aria-label="Modo escuro" title="Alternar modo claro/escuro">
+        <span class="knob"></span>
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Abrir menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== 1. HERO ===================== -->
+    <section class="hero" id="inicio">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+
+      <div class="container hero-content">
+        <div class="hero-photo reveal">
+          <div class="photo-ring"></div>
+          <img src="Foto.png" alt="Foto de Adriano Lima" id="profilePhoto" />
+          <span class="status-badge"><span class="dot"></span> Aberto a novos desafios</span>
+        </div>
+
+        <div class="hero-text">
+          <p class="hello reveal" style="--d: .1s">👋 Olá, eu sou</p>
+          <h1 class="reveal" style="--d: .2s">Adriano <span class="gradient-text">Lima</span></h1>
+          <h2 class="role reveal" style="--d: .3s">
+            <span class="typed" id="typed"></span><span class="cursor">|</span>
+          </h2>
+
+          <blockquote class="quote reveal" style="--d: .4s">
+            <i class="fa-solid fa-quote-left"></i>
+            Dados organizados contam histórias. Dados bem analisados transformam decisões.
+          </blockquote>
+
+          <div class="hero-buttons reveal" style="--d: .5s">
+            <a href="#projetos" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> Ver projetos</a>
+            <button class="btn btn-outline" id="printBtn"><i class="fa-solid fa-download"></i> Baixar CV</button>
+          </div>
+
+          <div class="socials reveal" style="--d: .6s">
+            <a href="https://github.com/ARNlima38" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:limadriano21@gmail.com" aria-label="E-mail"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://wa.me/5511961287369" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#experiencia" class="scroll-down" aria-label="Rolar para baixo">
+        <span class="mouse"><span class="wheel"></span></span>
+      </a>
+    </section>
+
+    <!-- ===================== 2. EXPERIÊNCIA ===================== -->
+    <section class="section" id="experiencia">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Carreira</span>
+          <h2>Experiência <span class="gradient-text">Profissional</span></h2>
+          <p>Mais de 20 anos de carreira unindo gestão, processos e dados.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-icon"><i class="fa-solid fa-chart-pie"></i></div>
+            <div class="timeline-card">
+              <span class="period"><i class="fa-regular fa-calendar"></i> Jun 2020 — Atual</span>
+              <h3>Gerente de Almoxarifado</h3>
+              <h4><i class="fa-solid fa-hospital"></i> SPDM — Hospital Geral de Pedreira Padre Maurilio Maritano</h4>
+              <ul>
+                <li>Gestão dos processos de controle de estoque.</li>
+                <li>Desenvolvimento de planilhas gerenciais, dashboards e automações de processos.</li>
+                <li>Gerenciamento dos pedidos de compras de materiais e medicamentos médico-hospitalares.</li>
+                <li>Conhecimentos gerais no sistema Philips Tasy.</li>
+              </ul>
+              <div class="tags"><span>Excel</span><span>Power BI</span><span>Dashboards</span><span>Automação</span><span>Philips Tasy</span></div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-icon"><i class="fa-solid fa-users-gear"></i></div>
+            <div class="timeline-card">
+              <span class="period"><i class="fa-regular fa-calendar"></i> Jun 2010 — Mai 2020</span>
+              <h3>Coordenador de Almoxarifado</h3>
+              <h4><i class="fa-solid fa-hospital"></i> SPDM — Hospital de Transplantes Dr. Euryclides de Jesus Zerbini</h4>
+              <ul>
+                <li>Coordenação de equipe e treinamentos de rotinas.</li>
+                <li>Organização do setor e controle do estoque.</li>
+                <li>Atualização de planilhas gerenciais.</li>
+                <li>Apoio nos pedidos de compras de materiais médico-hospitalares.</li>
+              </ul>
+              <div class="tags"><span>Gestão de Equipe</span><span>Controle de Estoque</span><span>Planilhas</span><span>Tasy</span></div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-icon"><i class="fa-solid fa-bus"></i></div>
+            <div class="timeline-card">
+              <span class="period"><i class="fa-regular fa-calendar"></i> Jun 2006 — Mai 2010</span>
+              <h3>Auxiliar de Almoxarifado</h3>
+              <h4><i class="fa-solid fa-building"></i> OAK TREE Transportes Urbanos LTDA.</h4>
+              <ul>
+                <li>Arquivamento de fichas e recebimento de fornecedores.</li>
+                <li>Conhecimento em peças mecânicas para ônibus.</li>
+                <li>Recebimento de óleo diesel e apoio geral ao setor.</li>
+              </ul>
+              <div class="tags"><span>Recebimento</span><span>Estoque</span><span>Peças Mecânicas</span></div>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-icon"><i class="fa-solid fa-globe"></i></div>
+            <div class="timeline-card">
+              <span class="period"><i class="fa-regular fa-calendar"></i> 2003 — 2005</span>
+              <h3>Estagiário — Programa Jovem Cidadão</h3>
+              <h4><i class="fa-solid fa-building"></i> Grupo de Pesquisas Ufológicas Ufogenesis</h4>
+              <ul>
+                <li>Atualização do site www.ufogenesis.com.br.</li>
+                <li>Digitação de textos e criação de planilhas.</li>
+              </ul>
+              <div class="tags"><span>Web</span><span>Planilhas</span><span>Digitação</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 3. FORMAÇÃO ===================== -->
+    <section class="section section-alt" id="formacao">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Educação</span>
+          <h2>Formação <span class="gradient-text">Acadêmica</span></h2>
+          <p>Base sólida e aprendizado contínuo.</p>
+        </div>
+
+        <div class="edu-grid">
+          <article class="edu-card reveal" style="--d: .1s">
+            <div class="edu-icon"><i class="fa-solid fa-brain"></i></div>
+            <span class="edu-period">Início 09/2026 · <span class="badge-progress">Cursando</span></span>
+            <h3>Pós-Graduação em Estratégia e Desenvolvimento de Soluções de IA</h3>
+            <p class="edu-school"><i class="fa-solid fa-building-columns"></i> Anhanguera</p>
+            <p>Especialização voltada à criação de soluções com Inteligência Artificial.</p>
+          </article>
+
+          <article class="edu-card reveal" style="--d: .2s">
+            <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <span class="edu-period">Concluído em 2015</span>
+            <h3>Tecnologia em Gestão Hospitalar</h3>
+            <p class="edu-school"><i class="fa-solid fa-building-columns"></i> SENAC</p>
+            <p>Ensino Superior completo com foco em gestão de processos e recursos hospitalares.</p>
+          </article>
+
+          <article class="edu-card reveal" style="--d: .3s">
+            <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+            <span class="edu-period">Concluído</span>
+            <h3>Ensino Médio e Fundamental</h3>
+            <p class="edu-school"><i class="fa-solid fa-building-columns"></i> E.E. Alexandre Von Humboldt</p>
+            <p>Ensino Fundamental concluído na E.E. Reinaldo Ribeiro da Silva.</p>
+          </article>
+        </div>
+
+        <h3 class="subsection-title reveal"><i class="fa-solid fa-certificate"></i> Cursos Realizados</h3>
+
+        <div class="courses-grid">
+          <article class="course-item reveal">
+            <div class="course-icon"><i class="fa-brands fa-python"></i></div>
+            <div>
+              <h4>Programação em Python <span class="badge-progress">Cursando</span></h4>
+              <p>Asimov Academy · Início 05/2026</p>
+            </div>
+          </article>
+
+          <article class="course-item reveal">
+            <div class="course-icon"><i class="fa-solid fa-filter"></i></div>
+            <div>
+              <h4>Power Query Definitivo</h4>
+              <p>Fera Treinamentos · 01/2026</p>
+            </div>
+          </article>
+
+          <article class="course-item reveal">
+            <div class="course-icon"><i class="fa-solid fa-chart-column"></i></div>
+            <div>
+              <h4>Power BI Avançado</h4>
+              <p>Doutores do Excel · 03/2025</p>
+            </div>
+          </article>
+
+          <article class="course-item reveal">
+            <div class="course-icon"><i class="fa-solid fa-table-cells"></i></div>
+            <div>
+              <h4>Especialista em Excel</h4>
+              <p>Doutores do Excel · 03/2025</p>
+            </div>
+          </article>
+
+          <article class="course-item reveal">
+            <div class="course-icon"><i class="fa-solid fa-file-excel"></i></div>
+            <div>
+              <h4>Excel Avançado</h4>
+              <p>Doutores do Excel · 09/2022</p>
+            </div>
+          </article>
+
+          <article class="course-item reveal">
+            <div class="course-icon"><i class="fa-solid fa-microchip"></i></div>
+            <div>
+              <h4>Hardware, Redes, Windows e Linux</h4>
+              <p>Microcamp Internacional · 2007 · 18 meses</p>
+            </div>
+          </article>
+
+          <article class="course-item reveal">
+            <div class="course-icon"><i class="fa-brands fa-windows"></i></div>
+            <div>
+              <h4>Informática Office XP</h4>
+              <p>Microcamp Internacional · 2005 · 18 meses</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 4. IDIOMAS ===================== -->
+    <section class="section" id="idiomas">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fa-solid fa-language"></i> Comunicação</span>
+          <h2><span class="gradient-text">Idiomas</span></h2>
+          <p>Comunicação clara em português e inglês.</p>
+        </div>
+
+        <div class="lang-grid">
+          <article class="lang-card reveal" style="--d: .1s">
+            <div class="ring" data-percent="100">
+              <svg viewBox="0 0 120 120">
+                <circle class="ring-bg" cx="60" cy="60" r="52" />
+                <circle class="ring-fg" cx="60" cy="60" r="52" />
+              </svg>
+              <span class="ring-value">0%</span>
+            </div>
+            <h3>Português</h3>
+            <span class="lang-level">Nativo</span>
+          </article>
+
+          <article class="lang-card reveal" style="--d: .2s">
+            <div class="ring" data-percent="75">
+              <svg viewBox="0 0 120 120">
+                <circle class="ring-bg" cx="60" cy="60" r="52" />
+                <circle class="ring-fg" cx="60" cy="60" r="52" />
+              </svg>
+              <span class="ring-value">0%</span>
+            </div>
+            <h3>Inglês</h3>
+            <span class="lang-level">Intermediário avançado · B2</span>
+            <span class="lang-school">Microcamp Internacional ABC · 2009</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 5. PROJETOS ===================== -->
+    <section class="section section-alt" id="projetos">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag"><i class="fa-solid fa-code"></i> Portfólio</span>
+          <h2>Meus <span class="gradient-text">Projetos</span></h2>
+          <p>Soluções em dados desenvolvidas no dia a dia e nos estudos.</p>
+        </div>
+
+        <div class="filters reveal">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="dashboards">Dashboards</button>
+          <button class="filter-btn" data-filter="automacao">Automação</button>
+          <button class="filter-btn" data-filter="python">Python &amp; IA</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal" data-category="dashboards">
+            <div class="project-cover" style="--c1:#f59e0b; --c2:#eab308">
+              <i class="fa-solid fa-chart-column"></i>
+            </div>
+            <div class="project-body">
+              <h3>Dashboard de Gestão de Estoque</h3>
+              <p>Painel com indicadores de estoque, consumo e cobertura de materiais e medicamentos médico-hospitalares.</p>
+              <div class="tags"><span>Power BI</span><span>Power Query</span><span>DAX</span></div>
+              <div class="project-links">
+                <span><i class="fa-solid fa-hospital"></i> SPDM · Hospital Geral de Pedreira</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="automacao">
+            <div class="project-cover" style="--c1:#10b981; --c2:#059669">
+              <i class="fa-solid fa-gears"></i>
+            </div>
+            <div class="project-body">
+              <h3>Automação de Pedidos de Compras</h3>
+              <p>Automação do fluxo de pedidos de compras de materiais, reduzindo retrabalho e erros manuais.</p>
+              <div class="tags"><span>Excel</span><span>Power Query</span><span>Automação</span></div>
+              <div class="project-links">
+                <span><i class="fa-solid fa-hospital"></i> SPDM · Hospital Geral de Pedreira</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="dashboards">
+            <div class="project-cover" style="--c1:#22c55e; --c2:#16a34a">
+              <i class="fa-solid fa-table-cells"></i>
+            </div>
+            <div class="project-body">
+              <h3>Planilhas Gerenciais de Almoxarifado</h3>
+              <p>Controle de entradas, saídas e inventário com relatórios gerenciais para tomada de decisão.</p>
+              <div class="tags"><span>Excel Avançado</span><span>Tabelas Dinâmicas</span><span>Gráficos</span></div>
+              <div class="project-links">
+                <span><i class="fa-solid fa-hospital"></i> SPDM · Almoxarifado</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="automacao">
+            <div class="project-cover" style="--c1:#06b6d4; --c2:#3b82f6">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <div class="project-body">
+              <h3>Tratamento de Dados do Tasy</h3>
+              <p>Consolidação e limpeza de relatórios extraídos do sistema Philips Tasy para análise gerencial.</p>
+              <div class="tags"><span>Power Query</span><span>ETL</span><span>Philips Tasy</span></div>
+              <div class="project-links">
+                <span><i class="fa-solid fa-hospital"></i> SPDM · Uso interno</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="python">
+            <div class="project-cover" style="--c1:#3b82f6; --c2:#facc15">
+              <i class="fa-brands fa-python"></i>
+            </div>
+            <div class="project-body">
+              <h3>Estudos em Python</h3>
+              <p>Scripts de análise de dados e automação desenvolvidos durante a formação em programação.</p>
+              <div class="tags"><span>Python</span><span>Análise de Dados</span></div>
+              <div class="project-links">
+                <span><i class="fa-solid fa-graduation-cap"></i> Asimov Academy · <span class="badge-progress">Em andamento</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="python">
+            <div class="project-cover" style="--c1:#8b5cf6; --c2:#ec4899">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+            <div class="project-body">
+              <h3>Soluções com Inteligência Artificial</h3>
+              <p>Projetos da pós-graduação voltados à estratégia e ao desenvolvimento de soluções com IA.</p>
+              <div class="tags"><span>IA</span><span>Python</span><span>Estratégia</span></div>
+              <div class="project-links">
+                <span><i class="fa-solid fa-graduation-cap"></i> Anhanguera · <span class="badge-progress">Em andamento</span></span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Feito com <i class="fa-solid fa-heart"></i> e muito <i class="fa-solid fa-mug-hot"></i> por Adriano Lima · &copy; <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
